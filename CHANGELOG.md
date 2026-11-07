@@ -35,3 +35,8 @@ All notable changes to this EFI. Dates in WIB (UTC+7).
 
 - Tahoe booted from USB EFI. Hardware identified from SysReport/Report.json + DSDT: Ryzen 5 5600H, Vega 7 (`1002:1638`), RTX 3050 Laptop (`10DE:25A5`), MT7921 (`14C3:7961`), ALC294 (layout 28), BOE NV156FHM-NX3 144 Hz.
 - Reference: andgarriv's G513IC EFI (Tahoe 26.2, OC 1.0.6, NootedRed 0.8.10, BrightnessKeys, `-NRedDPDelay`, SMBIOS MacBookPro16,2).
+
+## 2026-11-07 — Verbose removed
+
+- Removed boot-arg `-v` (clean boot: Apple logo + progress bar instead of verbose text).
+- Kept `debug=0x100 keepsyms=1` for panic diagnosis (they don't produce verbose output).
