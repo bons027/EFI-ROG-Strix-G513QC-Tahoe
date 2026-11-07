@@ -1,0 +1,12 @@
+# macOS / Windows junk
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Editor / OS artefacts
+*.swp
+*.swo
+*~
